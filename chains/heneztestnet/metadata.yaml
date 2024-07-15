@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../schema.json
+name: heneztestnet
+displayName: Henez Testnet
+chainId: 91111
+domainId: 91111
+protocol: ethereum
+rpcUrls:
+  - http: https://henez-testnet.rpc.caldera.xyz/http
+nativeToken:
+  symbol: ETH
+  name: Ether
+  decimals: 18
+isTestnet: true

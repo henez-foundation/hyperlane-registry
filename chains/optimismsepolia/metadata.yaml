@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../schema.json
+name: optimismsepolia
+displayName: Optimism Sepolia
+chainId: 11155420
+domainId: 11155420
+protocol: ethereum
+rpcUrls:
+  - http: https://sepolia.optimism.io
+nativeToken:
+  symbol: ETH
+  name: Ether
+  decimals: 18
+isTestnet: true
