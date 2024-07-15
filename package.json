@@ -1,7 +1,7 @@
 {
   "name": "henez-hyperlane-registry",
   "description": "A collection of configs, artifacts, and schemas for Hyperlane",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "dependencies": {
     "yaml": "^2",
     "zod": "^3.21.2"
@@ -49,7 +49,7 @@
     "node": ">=16"
   },
   "homepage": "https://www.hyperlane.xyz",
-  "repository": "https://github.com/hyperlane-xyz/hyperlane-registry",
+  "repository": "https://github.com/henez-foundation/hyperlane-registry",
   "keywords": [
     "Hyperlane",
     "Registry",
