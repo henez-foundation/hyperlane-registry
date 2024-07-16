@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://api.celoscan.io/api
+    family: etherscan
+    name: CeloScan
+    url: https://celoscan.io
+  - apiUrl: https://explorer.celo.org/mainnet/api
+    family: blockscout
+    name: Blockscout
+    url: https://explorer.celo.org
+blocks:
+  confirmations: 1
+  estimateBlockTime: 5
+  reorgPeriod: 0
+chainId: 42220
+deployer:
+  name: Abacus Works
+  url: https://www.hyperlane.xyz
+displayName: Celo
+domainId: 42220
+gnosisSafeTransactionServiceUrl: https://safe-transaction-celo.safe.global/
+name: celo
+nativeToken:
+  decimals: 18
+  name: CELO
+  symbol: CELO
+protocol: ethereum
+rpcUrls:
+  - http: https://forno.celo.org
