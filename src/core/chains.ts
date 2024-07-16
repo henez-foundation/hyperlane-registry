@@ -41,6 +41,7 @@ export enum CoreChain {
   solanatestnet = 'solanatestnet',
   viction = 'viction',
   zetachain = 'zetachain',
+  heneztestnet = 'heneztestnet',
 }
 
 export type CoreChainName = keyof typeof CoreChain;
@@ -79,6 +80,7 @@ export const CoreTestnets: Array<CoreChainName> = [
   CoreChain.sepolia,
   CoreChain.solanadevnet,
   CoreChain.solanatestnet,
+  CoreChain.heneztestnet,
 ];
 
 export const CoreChains: Array<CoreChainName> = [...CoreMainnets, ...CoreTestnets];
